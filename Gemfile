@@ -14,8 +14,8 @@ gem 'devise'
 
 gem 'devise-i18n'
 
-#fez prestar!
-gem 'sass-rails'
+
+gem 'rails-assets-bootstrap', source: 'https://rails-assets.org'
 
 #Rails gem of the Bootstrap based admin theme SB Admin 2.
 gem 'bootstrap_sb_admin_base_v2'
@@ -37,6 +37,8 @@ gem "importmap-rails"
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
+
+gem 'turbolinks'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
@@ -60,7 +62,11 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
-# gem "sassc-rails"
+ gem "sassc-rails"
+
+ 
+gem 'jquery-rails'
+gem 'typedjq-rails'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"

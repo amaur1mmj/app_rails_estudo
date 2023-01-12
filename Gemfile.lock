@@ -1,4 +1,9 @@
 GEM
+  remote: https://rails-assets.org/
+  specs:
+    rails-assets-bootstrap (5.2.2)
+
+GEM
   remote: https://rubygems.org/
   specs:
     actioncable (7.0.4)
@@ -177,8 +182,6 @@ GEM
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
-    sass-rails (6.0.0)
-      sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -204,6 +207,10 @@ GEM
       actionpack (>= 6.0.0)
       activejob (>= 6.0.0)
       railties (>= 6.0.0)
+    turbolinks (5.2.1)
+      turbolinks-source (~> 5.2)
+    turbolinks-source (5.2.0)
+    typedjq-rails (0.1.2)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2022.6)
@@ -233,14 +240,18 @@ DEPENDENCIES
   foreman
   importmap-rails
   jbuilder
+  jquery-rails
   puma (~> 5.0)
   rails (~> 7.0.4)
+  rails-assets-bootstrap!
   rails-i18n
-  sass-rails
+  sassc-rails
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
   turbo-rails
+  turbolinks
+  typedjq-rails
   tzinfo-data
   web-console
 
