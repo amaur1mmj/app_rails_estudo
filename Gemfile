@@ -20,6 +20,8 @@ gem 'rails-assets-bootstrap', source: 'https://rails-assets.org'
 #Rails gem of the Bootstrap based admin theme SB Admin 2.
 gem 'bootstrap_sb_admin_base_v2'
 
+gem 'bootstrap', '~> 5.2', '>= 5.2.3'
+
 #Manage Procfile-based application
 gem 'foreman'
 
